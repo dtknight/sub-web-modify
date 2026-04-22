@@ -350,7 +350,7 @@ export default {
         customBackend: {
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
-          "肥羊提供-增强型后端": "https://url.v1.mk",
+          "自用提供-爪云后端": "https://subapi.dtknight.eu.org",
           "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
@@ -364,8 +364,8 @@ export default {
             label: "CM规则",
             options: [
               {
-                label: "CM_Online 默认版 识别港美地区(与Github同步)",
-                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
+                label: "Custom_Clash_Full 默认版 (与Github同步)",
+                value: "https://raw.githubusercontent.com/dtknight/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash_Full.ini"
               },
               {
                 label: "CM_Online_MultiCountry 识别港美地区 负载均衡(与Github同步)",
