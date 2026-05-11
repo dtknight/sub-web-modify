@@ -350,7 +350,7 @@ export default {
         customBackend: {
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
-          "自用提供-爪云后端": "https://subapi.dtknight.eu.org",
+          "DT自用提供-爪云后端": "https://subapi.knightdzqyyds.eu.org:2096",
           "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
@@ -364,7 +364,7 @@ export default {
             label: "CM规则",
             options: [
               {
-                label: "Custom_Clash_Full 默认版 (与Github同步)",
+                label: "DT自用Custom_Clash_Full 默认版 (与Github同步)",
                 value: "https://raw.githubusercontent.com/dtknight/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash_Full.ini"
               },
               {
