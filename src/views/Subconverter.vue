@@ -350,7 +350,7 @@ export default {
         customBackend: {
           "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
-          "DT自用提供-爪云后端": "https://subapi.knightdzqyyds.eu.org:2096",
+          "DT自用提供-爪云后端": "https://sub.dtknight.eu.cc",
           "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
